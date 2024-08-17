@@ -6,10 +6,13 @@ default:
 run-go:
     go run main.go
 
+[doc("install all necessary dependencies")]
 install: install-go install-node
 
+[doc("Install node dependencies")]
 install-node:
     cd frontend && pnpm install
 
+[doc("Install go dependencies")]
 install-go:
-    echo "todo"
+    go mod download
