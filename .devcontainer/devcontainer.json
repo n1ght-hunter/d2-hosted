@@ -1,0 +1,22 @@
+{
+    "name": "d2-hosted",
+    "build": {
+        "dockerfile": "../devtools/devcontainer/Dockerfile",
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "dbaeumer.vscode-eslint",
+                "bierner.markdown-preview-github-styles",
+                "golang.go",
+                "nefrob.vscode-just-syntax",
+                "dsznajder.es7-react-js-snippets",
+                "eamodio.gitlens",
+                "esbenp.prettier-vscode",
+                "streetsidesoftware.code-spell-checker",
+                "DEVSENSE.composer-php-vscode"
+            ]
+        }
+    }
+}
